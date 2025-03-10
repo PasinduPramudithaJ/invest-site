@@ -1,0 +1,41 @@
+.terms-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+/* Content Section */
+.terms-content {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+/* Footer (Contact Section) */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    color: #6E6E6E;
+}

@@ -1,0 +1,117 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(2, 11, 98, 0.8), rgba(0, 78, 146, 0.8)), 
+    url('../assets//signin_background.png') no-repeat center center/cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+
+  .cmp-logo {
+      margin-bottom: 20px; 
+      text-align: center;
+  }
+
+  .cmp-logo img{
+    max-width: 150px;
+    height: auto;
+  }
+  
+  .form-box {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+  }
+  
+
+  .form-box h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+
+  .input-box {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+  }
+  
+  .input-box input::placeholder {
+    color: #b0c4de;
+  }
+  
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .remember-forgot a {
+    text-decoration: none;
+    color: #2196f3;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1e88e5;
+  }
+  
+
+  .registr-link {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .registr-link a {
+    text-decoration: none;
+    color: #2196f3;
+    font-weight: bold;
+  }
+  
+  .registr-link a:hover {
+    text-decoration: underline;
+  }
+

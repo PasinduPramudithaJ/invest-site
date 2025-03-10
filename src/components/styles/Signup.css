@@ -1,0 +1,101 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(2, 11, 98, 0.8), rgba(0, 78, 146, 0.8)), 
+   url('../assets//signin_background.png') no-repeat center center/cover;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  }
+  
+  .signup-container {
+    text-align: center;
+  }
+
+  .cmp-logo {
+      margin-bottom: 20px; 
+      text-align: center;
+  }
+
+  .cmp-logo img{
+    max-width: 150px;
+    height: auto;
+  }
+
+  .signup-form {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+  }
+  
+  .signup-form h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+
+  .signup-input {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .signup-input input {
+    width: 100%;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    outline: none;
+  }
+  
+  .signup-input input::placeholder {
+    color: #b0c4de;
+  }
+  
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .signin-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signin-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signin-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
